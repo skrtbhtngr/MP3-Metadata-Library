@@ -7,7 +7,7 @@
 
 int main()
 {
-    ID3v2Tag *tag = readID3v2Tag("/home/skrtbhtngr/bin/02. Slowdown (Original Mix).mp3");
+    ID3v2Tag *tag = readID3v2Tag("/Users/skrtbhtngr/bin/02. Slowdown (Original Mix).mp3");
     printAllTags(tag);
     return 0;
 }
